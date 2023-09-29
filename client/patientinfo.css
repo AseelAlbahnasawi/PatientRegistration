@@ -1,0 +1,339 @@
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .div {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .desktop .patient-information {
+    position: absolute;
+    width: 599px;
+    height: 317px;
+    top: 72px;
+    left: 46px;
+  }
+  
+  .desktop .overlap-group {
+    position: absolute;
+    width: 286px;
+    height: 317px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    background-image: url(images./person.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .text-wrapper {
+    position: absolute;
+    top: 52px;
+    left: 327px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .text-wrapper-2 {
+    position: absolute;
+    top: 119px;
+    left: 327px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .text-wrapper-3 {
+    position: absolute;
+    top: 186px;
+    left: 327px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .visit-history {
+    position: absolute;
+    width: 420px;
+    height: 568px;
+    top: 436px;
+    left: 44px;
+  }
+  
+  .desktop .overlap {
+    position: relative;
+    width: 408px;
+    height: 568px;
+  }
+  
+  .desktop .rectangle {
+    position: absolute;
+    width: 406px;
+    height: 568px;
+    top: 0;
+    left: 2px;
+    background-color: #d9d9d9;
+  }
+  
+  .desktop .text-wrapper-4 {
+    position: absolute;
+    top: 33px;
+    left: 82px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .text-wrapper-5 {
+    position: absolute;
+    width: 338px;
+    top: 121px;
+    left: 2px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-6 {
+    top: 195px;
+    left: 0;
+    position: absolute;
+    width: 338px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-7 {
+    top: 269px;
+    left: 0;
+    position: absolute;
+    width: 338px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-8 {
+    top: 343px;
+    left: 2px;
+    position: absolute;
+    width: 338px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-9 {
+    top: 417px;
+    left: 2px;
+    position: absolute;
+    width: 338px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .diagnoses {
+    position: absolute;
+    width: 412px;
+    height: 568px;
+    top: 436px;
+    left: 528px;
+  }
+  
+  .desktop .overlap-2 {
+    position: relative;
+    width: 406px;
+    height: 568px;
+    background-color: #d9d9d9;
+  }
+  
+  .desktop .text-wrapper-10 {
+    top: 33px;
+    left: 80px;
+    font-size: 45px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .diagnoses-paragraph {
+    top: 120px;
+    left: 7px;
+    font-size: 35px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .note {
+    position: absolute;
+    top: 404px;
+    left: 7px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .line {
+    position: absolute;
+    width: 406px;
+    height: 4px;
+    top: 342px;
+    left: 0;
+  }
+  
+  .desktop .allergies {
+    position: absolute;
+    width: 416px;
+    height: 568px;
+    top: 436px;
+    left: 1010px;
+  }
+  
+  .desktop .text-wrapper-11 {
+    position: absolute;
+    top: 34px;
+    left: 112px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .text-wrapper-12 {
+    position: absolute;
+    top: 135px;
+    left: 25px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .text-wrapper-13 {
+    position: absolute;
+    top: 213px;
+    left: 25px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .text-wrapper-14 {
+    position: absolute;
+    top: 291px;
+    left: 25px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .text-wrapper-15 {
+    position: absolute;
+    top: 369px;
+    left: 27px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .previous {
+    position: absolute;
+    width: 262px;
+    height: 54px;
+    top: 45px;
+    left: 1155px;
+  }
+  
+  .desktop .div-wrapper {
+    position: relative;
+    width: 260px;
+    height: 54px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .text-wrapper-16 {
+    position: absolute;
+    width: 176px;
+    top: 0;
+    left: 42px;
+    font-family: "Istok Web-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
